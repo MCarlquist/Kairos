@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "kairos": "src/index.ts"
+    "kairos": "dist/index.js"
   },
   "scripts": {
-    "dev": "tsx src/index.ts",
+    "dev": "tsx src/index.tsx",
     "build": "node scripts/build.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
